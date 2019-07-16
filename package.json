@@ -1,0 +1,39 @@
+{
+  "name": "nuxt-parse",
+  "version": "0.1.0",
+  "description": "A parse module for Nuxt.js",
+  "author": {
+    "name": "Vittorio Emmermann"
+  },
+  "keywords": [
+    "vue",
+    "nuxt",
+    "nuxt.js"
+  ],
+  "main": "lib/module.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nuxt test/fixture",
+    "test": "jest",
+    "test:unit": "jest --testRegex \"/test/unit/(.+)\\.test\\.js$\"",
+    "test:system": "jest --testRegex \"/test/system/(.+)\\.test\\.js$\"",
+    "test:coverage": "yarn test --coverage",
+    "format": "prettier './**/*.{js,ts,json,vue}' --write"
+  },
+  "devDependencies": {
+    "jest": "^23.4.1",
+    "nuxt": "^2.4.0",
+    "prettier": "^1.16.1",
+    "puppeteer": "^1.6.1"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "collectCoverageFrom": [
+      "lib/**/*.{js,jsx}"
+    ]
+  },
+  "dependencies": {
+    "consola": "^2.3.2",
+    "parse": "^2.5.1"
+  }
+}
