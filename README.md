@@ -1,6 +1,8 @@
 # nuxt-parse
 [![CircleCI](https://circleci.com/gh/cierrateam/nuxt-parse/tree/master.svg?style=svg)](https://circleci.com/gh/cierrateam/nuxt-parse/tree/master)
-[![Cierra](https://img.shields.io/badge/Cierra-Open%20Source-orange.svg)]
+
+[Cierra](https://img.shields.io/badge/Cierra-Open%20Source-orange.svg)
+
 A parse module for Nuxt.js.
 
 ## Installation
