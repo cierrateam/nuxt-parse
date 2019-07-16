@@ -1,7 +1,11 @@
+import Vue from 'vue'
+
 export default context => {
-    window.Parse = require('parse');
+    let Parse = require('parse');
 
-    window.Parse.initialize('', '');
+    Parse.initialize('', '');
 
-    window.Parse.serverURL = 'https://parseapi.back4app.com/'
+    Parse.serverURL = 'https://parseapi.back4app.com/'
+
+    Vue.prototype.$parse = Parse;
 }

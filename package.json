@@ -2,9 +2,7 @@
   "name": "nuxt-parse",
   "version": "0.1.0",
   "description": "A parse module for Nuxt.js",
-  "author": {
-    "name": "Vittorio Emmermann"
-  },
+  "author": "Vittorio Emmermann",
   "keywords": [
     "vue",
     "nuxt",
@@ -35,5 +33,17 @@
   "dependencies": {
     "consola": "^2.3.2",
     "parse": "^2.5.1"
-  }
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cierrateam/nuxt-parse.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cierrateam/nuxt-parse/issues"
+  },
+  "homepage": "https://github.com/cierrateam/nuxt-parse#readme"
 }
