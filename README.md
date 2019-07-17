@@ -14,9 +14,9 @@ Implement the module in `nuxt.config.js`:
 ```
 ...
 modules: [
-    ['nuxt-parse', { 
-            appID: YOUR_APP_ID, 
-            javascriptKey: YOUR_JAVASCRIPT_KEY, 
+    ['nuxt-parse', {
+            appID: YOUR_APP_ID,
+            javascriptKey: YOUR_JAVASCRIPT_KEY,
             serverUrl: OPTIONAL_SERVER_URL
         }
     ]
@@ -24,34 +24,34 @@ modules: [
 ...
 ```
 
-You don't have to provide the server url if you're using the back4app service.
+You don't have to provide the serverUrl if you're using the back4app service.
 
 ## Usage
 
-To access the parse instance you can use anyware you want `this.$parse` for example to logIn you can use:
+To access the parse instance you can use `this.$parse` anywhere you want to. For example to login you can use:
 ```
 this.$parse.User.logIn('username', 'password')
 ```
 
 ## Middleware
 
-To add the middleware to the client you can create a file `middleware/auth.js` with the following content:
+To add the middleware to the client you can create a file called `middleware/auth.js` with the following content:
 ```
 import Parse from 'parse';
 export default function ({redirect}) {
     // If the user is not authenticated
     let currentUser = Parse.User.current();
-    if(!currentUser) 
+    if(!currentUser)
         return redirect('/register');
   }
 ```
 
-Than you're able to use the `middleware: 'auth'` option in your pages.
+Then you're able to use the `middleware: 'auth'` option in your pages.
 
-## Development
+## Contribution
 
 ```bash
-$ git clone https://github.com/Vittorio Emmermann/nuxt-parse.git
+$ git clone https://github.com/cierrateam/nuxt-parse.git
 $ cd nuxt-parse
 $ yarn
 ```
@@ -59,4 +59,3 @@ $ yarn
 ## License
 
 MIT
-
