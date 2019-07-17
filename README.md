@@ -25,18 +25,18 @@ modules: [
 ...
 ```
 
-You don't have to provide the server url if you're using the back4app service.
+You don't have to provide the serverUrl if you're using the back4app service.
 
 ## Usage
 
-To access the parse instance you can use anyware you want `this.$parse` for example to logIn you can use:
+To access the parse instance you can use `this.$parse` anywhere you want to. For example to login you can use:
 ```
 this.$parse.User.logIn('username', 'password')
 ```
 
 ## Middleware
 
-To add the middleware to the client you can create a file `middleware/auth.js` with the following content:
+To add the middleware to the client you can create a file called `middleware/auth.js` with the following content:
 ```
 import Parse from 'parse';
 export default function ({redirect}) {
@@ -47,7 +47,7 @@ export default function ({redirect}) {
   }
 ```
 
-Than you're able to use the `middleware: 'auth'` option in your pages.
+Then you're able to use the `middleware: 'auth'` option in your pages.
 
 ## Contributing
 Please observe and respect all aspects of the included Code of Conduct <https://github.com/cierrateam/nuxt-parse/blob/master/CODE_OF_CONDUCT.md>.
