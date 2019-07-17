@@ -1,6 +1,7 @@
 # nuxt-parse
 [![CircleCI](https://circleci.com/gh/cierrateam/nuxt-parse/tree/master.svg?style=svg)](https://circleci.com/gh/cierrateam/nuxt-parse/tree/master)
 ![Cierra](https://img.shields.io/badge/Cierra-Open%20Source-orange.svg)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/GeneaLabs/nova-map-marker-field/master/LICENSE)
 
 A parse module for Nuxt.js.
 
@@ -48,14 +49,8 @@ export default function ({redirect}) {
 
 Then you're able to use the `middleware: 'auth'` option in your pages.
 
-## Contribution
+## Contributing
+Please observe and respect all aspects of the included Code of Conduct <https://github.com/cierrateam/nuxt-parse/blob/master/CODE_OF_CONDUCT.md>.
 
-```bash
-$ git clone https://github.com/cierrateam/nuxt-parse.git
-$ cd nuxt-parse
-$ yarn
-```
-
-## License
-
-MIT
+### Submitting Pull Requests
+Please review the Contribution Guidelines <https://github.com/cierrateam/nuxt-parse/blob/master/CONTRIBUTING.md>. Only PRs that meet all criterium will be accepted.
