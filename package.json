@@ -22,7 +22,7 @@
     "jest": "23.6.0",
     "nuxt": "2.8.1",
     "prettier": "1.18.2",
-    "puppeteer": "1.18.1"
+    "puppeteer": "1.20.0"
   },
   "jest": {
     "testEnvironment": "node",
