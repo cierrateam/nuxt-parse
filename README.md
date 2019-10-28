@@ -16,7 +16,7 @@ Implement the module in `nuxt.config.js`:
 ...
 modules: [
     ['nuxt-parse', {
-            appID: YOUR_APP_ID,
+            appId: YOUR_APP_ID,
             javascriptKey: YOUR_JAVASCRIPT_KEY,
             serverUrl: OPTIONAL_SERVER_URL
         }
