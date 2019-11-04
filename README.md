@@ -1,4 +1,4 @@
-# Parse package for Parse
+# Parse package for Nuxt.js
 [![CircleCI](https://circleci.com/gh/cierrateam/nuxt-parse/tree/master.svg?style=svg)](https://circleci.com/gh/cierrateam/nuxt-parse/tree/master)
 ![Cierra](https://img.shields.io/badge/Cierra-Open%20Source-orange.svg)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/GeneaLabs/nova-map-marker-field/master/LICENSE)
