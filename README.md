@@ -1,7 +1,9 @@
-# nuxt-parse
+# Parse package for Nuxt.js
 [![CircleCI](https://circleci.com/gh/cierrateam/nuxt-parse/tree/master.svg?style=svg)](https://circleci.com/gh/cierrateam/nuxt-parse/tree/master)
 ![Cierra](https://img.shields.io/badge/Cierra-Open%20Source-orange.svg)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/GeneaLabs/nova-map-marker-field/master/LICENSE)
+![npm](https://img.shields.io/npm/dw/nuxt-parse)
+![GitHub last commit (branch)](https://img.shields.io/github/last-commit/cierrateam/nuxt-parse/master)
 
 A parse module for Nuxt.js.
 
