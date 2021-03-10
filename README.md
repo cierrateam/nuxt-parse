@@ -51,6 +51,44 @@ export default function ({redirect}) {
 
 Then you're able to use the `middleware: 'auth'` option in your pages.
 
+## Make Parse Objects compatible/reactive with Nuxt (Nuxtify)
+By default the objects returned by this package have to be used like this:
+`user.get("username")`. Therefore they cannot be used in `v-model` Tags. 
+
+
+The Solution to this is to add this call at the creation of the app (for example in `layouts/default.vue`):
+ 
+```
+export default {
+  mounted() {
+    this.$nuxt.$parseNuxtify(["User", "YourClass1"])
+  }
+}
+```
+
+In your Template you can now use:
+```
+<template>
+    <div>
+        <div v-if="user">
+            <input type="text" v-model="user.username">
+            <button @click="user.save()">Save!</button>
+        </div>
+    </div>
+<template>
+<script>
+    data(){
+        return {
+            user: null;
+        }
+    },
+    async mounted(){
+        const query = new Parse.Query("User");
+        this.user = await query.get("xWMyZ4YEGZ");
+    }
+</script>
+```
+
 ## Contributing
 Please observe and respect all aspects of the included Code of Conduct <https://github.com/cierrateam/nuxt-parse/blob/master/CODE_OF_CONDUCT.md>.
 
