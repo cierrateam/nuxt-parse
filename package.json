@@ -20,7 +20,7 @@
   },
   "devDependencies": {
     "jest": "25.1.0",
-    "nuxt": "2.11.0",
+    "nuxt": "2.15.8",
     "prettier": "1.19.1",
     "puppeteer": "2.1.0"
   },
