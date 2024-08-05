@@ -583,10 +583,10 @@
     "@babel/helper-plugin-utils" "^7.22.5"
     "@babel/plugin-syntax-typescript" "^7.23.3"
 
-"@babel/runtime-corejs3@7.23.2":
-  version "7.23.2"
-  resolved "https://registry.yarnpkg.com/@babel/runtime-corejs3/-/runtime-corejs3-7.23.2.tgz#a5cd9d8b408fb946b2f074b21ea40c04e516795c"
-  integrity sha512-54cIh74Z1rp4oIjsHjqN+WM4fMyCBYe+LpZ9jWm51CZ1fbH3SkAzQD/3XLoNkjbJ7YEmjobLXyvQrFypRHOrXw==
+"@babel/runtime-corejs3@7.24.7":
+  version "7.24.7"
+  resolved "https://registry.yarnpkg.com/@babel/runtime-corejs3/-/runtime-corejs3-7.24.7.tgz#65a99097e4c28e6c3a174825591700cc5abd710e"
+  integrity sha512-eytSX6JLBY6PVAeQa2bFlDx/7Mmln/gaEpsit5a3WEvjGfiIytEsgAwuIXCPM0xvw0v0cJn3ilq0/TvXrW0kgA==
   dependencies:
     core-js-pure "^3.30.2"
     regenerator-runtime "^0.14.0"
@@ -5723,15 +5723,15 @@ parse-url@^8.1.0:
     parse-path "^7.0.0"
 
 parse@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/parse/-/parse-5.0.0.tgz#0b9dcb6f9713f86ce987c1e897b8d0e56ac2f9ed"
-  integrity sha512-6gOARZWiHjmGusbTskhC1qlRn527olMEsdt2LLj9cP2GY3n4VFOwFwV8z/vm2+YfzPfPcv8z7qLih1NzmqzO0g==
+  version "5.3.0"
+  resolved "https://registry.yarnpkg.com/parse/-/parse-5.3.0.tgz#d1c156ac481b9a66358ab639332c288b725ec570"
+  integrity sha512-mWBnE6hHJhdvlx5KPQcYgCGRdgqKhPw+5fSC0j7vOfse3Lkh3xtDwOfmDpvv2LXZVBj72G/mgVKMRmbAICRzkQ==
   dependencies:
-    "@babel/runtime-corejs3" "7.23.2"
+    "@babel/runtime-corejs3" "7.24.7"
     idb-keyval "6.2.1"
     react-native-crypto-js "1.0.0"
-    uuid "9.0.1"
-    ws "8.16.0"
+    uuid "10.0.0"
+    ws "8.17.1"
     xmlhttprequest "1.8.0"
   optionalDependencies:
     crypto-js "4.2.0"
@@ -7215,10 +7215,10 @@ util-deprecate@^1.0.1, util-deprecate@^1.0.2, util-deprecate@~1.0.1:
   resolved "https://registry.yarnpkg.com/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
   integrity sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=
 
-uuid@9.0.1:
-  version "9.0.1"
-  resolved "https://registry.yarnpkg.com/uuid/-/uuid-9.0.1.tgz#e188d4c8853cc722220392c424cd637f32293f30"
-  integrity sha512-b+1eJOlsR9K8HJpow9Ok3fiWOWSIcIzXodvv0rQjVoOVNpWMpxf1wZNpt4y9h10odCNrqnYp1OBzRktckBe3sA==
+uuid@10.0.0:
+  version "10.0.0"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-10.0.0.tgz#5a95aa454e6e002725c79055fd42aaba30ca6294"
+  integrity sha512-8XkAphELsDnEGrDxUOHB3RGvXz6TeuYSGEZBOjtTtPm2lwhGBjLgOzLHB63IUWfBpNucQjND6d3AOudO+H3RWQ==
 
 v8-to-istanbul@^9.0.1:
   version "9.0.1"
@@ -7488,10 +7488,10 @@ write-file-atomic@^4.0.1:
     imurmurhash "^0.1.4"
     signal-exit "^3.0.7"
 
-ws@8.16.0, ws@^8.16.0:
-  version "8.16.0"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-8.16.0.tgz#d1cd774f36fbc07165066a60e40323eab6446fd4"
-  integrity sha512-HS0c//TP7Ina87TfiPUz1rQzMhHrl/SG2guqRcTOIUYD2q8uhUdNHZYJUaQ8aTGPzCh+c6oawMKW35nFl1dxyQ==
+ws@8.17.1, ws@^8.16.0:
+  version "8.17.1"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-8.17.1.tgz#9293da530bb548febc95371d90f9c878727d919b"
+  integrity sha512-6XQFvXTkbfUOZOKKILFG1PDK2NDQs4azKQl26T0YS5CxqWLgXajbPZ+h4gZekJyRqFU8pvnbAbbs/3TgRPy+GQ==
 
 ws@^6.1.0:
   version "6.2.2"
